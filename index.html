@@ -266,7 +266,6 @@ if(isset($_POST['submit']));
 
                                 <a class="btn" id="rem_rede_inf" href="#abrirModal_i2"><span>REMANEJAMENTO EM
                                         REDE</span></a>
-
                                 <div id="abrirModal_i2" class="modal">
                                     <div class="box">
                                         <form action="index.html" method="post" id="frm" class="frm">
@@ -276,7 +275,6 @@ if(isset($_POST['submit']));
                                                 <br><br>
 
                                                 <div class="inputBox">
-
                                                     <label for="listInf" class="labelInput">Instituição de
                                                         Ensino Atual</label><br>
                                                     <select id="listInf" name="listRemIntInf" required>
@@ -285,15 +283,45 @@ if(isset($_POST['submit']));
                                                         </option>
                                                         <option value="instituicao1">Instituição 1</option>
                                                         <option value="instituicao2">Instituição 2</option>
-                                                        <option value="instituica3">Instituição 3</option>
-                                                        <option value="instituica3">Instituição 4</option>
-                                                        <option value="instituica3">Instituição 5</option>
-                                                        <option value="instituica3">Instituição 6</option>
-
+                                                        <option value="instituicao3">Instituição 3</option>
+                                                        <option value="instituicao4">Instituição 4</option>
+                                                        <option value="instituicao5">Instituição 5</option>
+                                                        <option value="instituicao6">Instituição 6</option>
                                                     </select>
-
                                                 </div>
-                                                <br><br>
+                                                <br>
+
+                                                <div class="inputBox">
+                                                    <p>Turno Pretendido:</p>
+                                                    <div class="inputBox__radio">
+                                                        <input type="radio" name="turno" id="matutino" value="matutino"
+                                                            required>
+                                                        <label class="inputBox__radio"
+                                                            for="matutino">Matutino</label><br>
+                                                        <input type="radio" name="turno" id="vespertino"
+                                                            value="vespertino" required>
+                                                        <label class="inputBox__radio"
+                                                            for="vespertino">Vespertino</label><br>
+                                                        <input type="radio" name="turno" id="semturno"
+                                                            value="semPreferenciaTurno" required>
+                                                        <label class="inputBox__radio" for="semturno">Sem preferência de
+                                                            turno</label>
+                                                    </div>
+                                                </div>
+                                                <br>
+
+                                                <div class="inputBox">
+                                                    <label for="listInf" class="labelInput">Turma pretendida</label><br>
+                                                    <select id="listInf" name="listRemIntInf" required>
+                                                        <option class="listInf__opt" value="escolher">Escolha a turma
+                                                            pretendida</option>
+                                                        <option value="creche2">Creche II (02 anos completados até a data 31/03/2022)</option>
+                                                        <option value="creche3">Creche III (03 anos completados até a data 31/03/2022)</option>
+                                                        <option value="pre1">Pré-Escola I (04 anos completados até a data de 31/03/2021)</option>
+                                                        <option value="pre2">Pré-Escola II (05 anos completados até a data de 31/03/2021)</option>
+                                                    </select>
+                                                </div>
+                                                <br>
 
                                                 <div class="inputBox">
                                                     <input type="text" name="nome" id="nome" class=inputUser required>
