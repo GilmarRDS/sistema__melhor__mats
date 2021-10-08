@@ -267,6 +267,19 @@ h1 {
   border-radius: 10px;
 }
 
+.listInf__opt{
+  color:#f7f4f5af;
+  overflow:hidden;
+  font-size: 1.0em;
+}
+
+.inputBox select{
+  background: rgb(0,0,54);
+  color:white;
+  margin:0;
+  width: 100%;
+}
+
 /*deixando tela principal responsiva*/
 
 @media screen and (max-width: 600px){
