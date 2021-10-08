@@ -47,7 +47,7 @@ if(isset($_POST['submit']));
                                         INTERNO</span></a>
                                 <div id="abrirModal1" class="modal">
                                     <div class="box">
-                                        <form action="index.html" method="post" id="frm" class="frm">
+                                        <form action="index.php" method="post" id="frm" class="frm">
                                             <a href="#fechar" title="Fechar" id="fechar">x</a>
                                             <fieldset>
                                                 <legend>REMANEJAMENTO INTERNO</legend>
@@ -546,24 +546,7 @@ if(isset($_POST['submit']));
                                             <fieldset>
                                                 <legend>CADASTRO DE RESERVA</legend>
                                                 <br><br>
-<!--
-                                                <div class="inputBox">
-                                                    <label for="listInf" class="labelInput">Instituição de
-                                                        Ensino Atual</label><br>
-                                                    <select id="listInf" name="listRemIntInf" required>
-                                                        <option class="listInf__opt" value="selecionar">Selecione a
-                                                            Instituição Atual
-                                                        </option>
-                                                        <option value="instituicao1">Instituição 1</option>
-                                                        <option value="instituicao2">Instituição 2</option>
-                                                        <option value="instituicao3">Instituição 3</option>
-                                                        <option value="instituicao4">Instituição 4</option>
-                                                        <option value="instituicao5">Instituição 5</option>
-                                                        <option value="instituicao6">Instituição 6</option>
-                                                    </select>
-                                                </div>
-                                                <br>
-                                            -->
+
                                                 <div class="inputBox">
                                                     <label for="listInf" class="labelInput">Turma pretendida</label><br>
                                                     <select id="listInf" name="listRemIntInf" required>
@@ -794,6 +777,17 @@ if(isset($_POST['submit']));
                                                     <input type="text" name="edp" id="edp" class=inputUser required>
                                                     <label for="edp" class="labelInput">Número do Código da EDP (Talão
                                                         de Energia)</label>
+                                                </div>
+                                                <br><br>
+
+																<div class="inputBox">
+                                                   <p><b>Após a confirmação da vaga, o responsável pelo aluno deverá comparecer na Instituição com documentação, original e cópia para efetivação da matrícula</b></p>
+																	<br>
+																	<p>
+																		Ducumentos originais e uma cópia de cada documento para efetivação da matrícula:
+																		<br>
+																		Foto 3/4 do estudante;<br>
+																	</p>
                                                 </div>
                                                 <br><br>
 
