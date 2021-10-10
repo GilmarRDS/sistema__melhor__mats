@@ -327,10 +327,9 @@ h1 {
   pointer-events: auto;
 }
 
-#fechar{
+.fechar{
   float: right;
   color:#fff;
-  
 }
 
 /*.modal > div {
