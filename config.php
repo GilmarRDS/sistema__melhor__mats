@@ -5,7 +5,7 @@ $dbUsername = 'root';
 $dbPassword ='';
 $dbName = 'remanejamento_interno_escola1';
 
-$conexao = new mysqli($dbHos,$dbUsername,$dbPassword,$dbName);
+$conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
 //if ($conexao -> connect_errno)
 //{
