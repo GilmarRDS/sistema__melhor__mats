@@ -3,7 +3,7 @@
 $dbHost ='LocalHost';
 $dbUsername ='root';
 $dbPassword ='';
-$dbName = 'remanejamento_interno_escola1';
+$dbName = 'remanejamento_interno_escola2';
 
 $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 
