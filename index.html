@@ -41,7 +41,7 @@ if(isset($_POST['submit']));
                             </label>
 
                             <div class="conteudo__dois">
-                                <a class="btn" id="rem_inter_inf" href="#abrirModal_i1"><span>REMANEJAMENT INTERNO</span></a>
+                                <a class="btn" id="rem_inter_inf" href="#abrirModal_i1"><span>REMANEJAMENTO INTERNO</span></a>
                                 <!--REMANEJAMENTO INTERNO-->
                                 <div id="abrirModal_i1" class="modal">
                                     <div class="box">
@@ -261,7 +261,7 @@ if(isset($_POST['submit']));
                                     </div>
                                 </div>
 
-                                <a class="btn" id="rem_rede_inf" ref="#abrirModal_i2"><span>REMANEJAMENTO EM REDE</span></a>
+                                <a class="btn" id="rem_rede_inf" href="#abrirModal_i2"><span>REMANEJAMENTO EM REDE</span></a>
                                 <!--REMANEJAMENTO EM REDE-->
                                 <div id="abrirModal_i2" class="modal">
                                     <div class="box">
@@ -288,15 +288,13 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Turno Pretendido:</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="turno" id="matutino" value="matutino" required>
-                                                        <label class="inputBox__radio" for="matutino">Matutino</label><br>
-                                                        <input type="radio" name="turno" id="vespertino"
+                                                        <input type="radio" name="turno" id="matutino_i2" value="matutino" required>
+                                                        <label class="inputBox__radio" for="matutino_i2">Matutino</label><br>
+                                                        <input type="radio" name="turno" id="vespertino_i2"
                                                             value="vespertino" required>
-                                                        <label class="inputBox__radio"
-                                                            for="vespertino">Vespertino</label><br>
-                                                        <input type="radio" name="turno" id="semturno"
-                                                            value="semPreferenciaTurno" required>
-                                                        <label class="inputBox__radio" for="semturno">Sem preferência de turno</label>
+                                                        <label class="inputBox__radio" for="vespertino_i2">Vespertino</label><br>
+                                                        <input type="radio" name="turno" id="semturno_i2" value="semPreferenciaTurno" required>
+                                                        <label class="inputBox__radio" for="semturno_i2">Sem preferência de turno</label>
                                                     </div>
                                                 </div>
                                                 <br>
@@ -320,8 +318,7 @@ if(isset($_POST['submit']));
 
                                                 <div class="inputBox">
                                                     <input type="text" name="nome" id="nome_i2" class=inputUser required>
-                                                    <label for="nome_i2" class="labelInput">Nome completo do
-                                                        estudante</label>
+                                                    <label for="nome_i2" class="labelInput">Nome completo do estudante</label>
                                                 </div>
                                                 <br>
 
@@ -341,17 +338,17 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Gênero:</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="genero" id="masculino"
+                                                        <input type="radio" name="genero" id="masculino_i2"
                                                             value="masculino" required>
                                                         <label class="inputBox__radio"
-                                                            for="masculino">Masculino</label><br>
-                                                        <input type="radio" name="genero" id="feminino" value="feminino"
+                                                            for="masculino_i2">Masculino</label><br>
+                                                        <input type="radio" name="genero" id="feminino_i2" value="feminino"
                                                             required>
-                                                        <label class="inputBox__radio" for="feminino">Feminino</label>
+                                                        <label class="inputBox__radio" for="feminino_i2">Feminino</label>
                                                     </div>
                                                 </div>
                                                 <br>
-
+<!--parei aqui renomeando os IDs-->
                                                 <div class="inputBox">
                                                     <p>Cor/Raça:</p>
                                                     <div class="inputBox__radio">
