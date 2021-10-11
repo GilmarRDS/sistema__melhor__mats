@@ -1,6 +1,6 @@
 <?php
 
-$dbHost ='LocalHost';
+$dbHost ='localhost';
 $dbUsername ='root';
 $dbPassword ='';
 $dbName = 'remanejamento_interno_escola2';
