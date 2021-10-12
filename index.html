@@ -42,12 +42,13 @@ if(isset($_POST['submit']));
                             </label>
 
                             <div class="conteudo__dois">
-                                <a class="btn" id="rem_inter_inf" href="#abrirModal_i1"><span>REMANEJAMENTO INTERNO</span></a>
+                                <a class="btn" id="rem_inter_inf" href="#abrirModal_i1"><span>REMANEJAMENTO
+                                        INTERNO</span></a>
                                 <!--REMANEJAMENTO INTERNO-->
                                 <div id="abrirModal_i1" class="modal">
                                     <div class="box">
                                         <form action="index.php" method="post" id="frm" class="frm">
-                                             <a href="#fechar" title="Fechar" id="fechar" class="fechar">x</a>
+                                            <a href="#fechar" title="Fechar" id="fechar" class="fechar">x</a>
                                             <fieldset>
                                                 <legend>REMANEJAMENTO INTERNO</legend>
                                                 <br><br>
@@ -262,7 +263,8 @@ if(isset($_POST['submit']));
                                     </div>
                                 </div>
 
-                                <a class="btn" id="rem_rede_inf" href="#abrirModal_i2"><span>REMANEJAMENTO EM REDE</span></a>
+                                <a class="btn" id="rem_rede_inf" href="#abrirModal_i2"><span>REMANEJAMENTO EM
+                                        REDE</span></a>
                                 <!--REMANEJAMENTO EM REDE-->
                                 <div id="abrirModal_i2" class="modal">
                                     <div class="box">
@@ -273,9 +275,11 @@ if(isset($_POST['submit']));
                                                 <br><br>
 
                                                 <div class="inputBox">
-                                                    <label for="listInf_i2s1" class="labelInput">Instituição de Ensino Atual</label><br>
+                                                    <label for="listInf_i2s1" class="labelInput">Instituição de Ensino
+                                                        Atual</label><br>
                                                     <select id="listInf_i2s1" name="listRemIntInf" required>
-                                                        <option class="listInf__opt" value="selecionar">Selecione a Instituição Atual</option>
+                                                        <option class="listInf__opt" value="selecionar">Selecione a
+                                                            Instituição Atual</option>
                                                         <option value="instituicao1">Instituição 1</option>
                                                         <option value="instituicao2">Instituição 2</option>
                                                         <option value="instituicao3">Instituição 3</option>
@@ -289,19 +293,24 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Turno Pretendido:</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="turno" id="matutino_i2" value="matutino" required>
-                                                        <label class="inputBox__radio" for="matutino_i2">Matutino</label><br>
+                                                        <input type="radio" name="turno" id="matutino_i2"
+                                                            value="matutino" required>
+                                                        <label class="inputBox__radio"
+                                                            for="matutino_i2">Matutino</label><br>
                                                         <input type="radio" name="turno" id="vespertino_i2"
                                                             value="vespertino" required>
-                                                        <label class="inputBox__radio" for="vespertino_i2">Vespertino</label><br>
-                                                        <input type="radio" name="turno" id="semturno_i2" value="semPreferenciaTurno" required>
+                                                        <label class="inputBox__radio"
+                                                            for="vespertino_i2">Vespertino</label><br>
+                                                        <input type="radio" name="turno" id="semturno_i2"
+                                                            value="semPreferenciaTurno" required>
                                                         <label class="inputBox__radio" for="semturno_i2">Sem preferência de turno</label>
                                                     </div>
                                                 </div>
                                                 <br>
 
                                                 <div class="inputBox">
-                                                    <label for="listInf_i2s2" class="labelInput">Turma pretendida</label><br>
+                                                    <label for="listInf_i2s2" class="labelInput">Turma
+                                                        pretendida</label><br>
                                                     <select id="listInf_i2s2" name="listRemIntInf" required>
                                                         <option class="listInf__opt" value="escolher">Escolha a turma
                                                             pretendida</option>
@@ -318,20 +327,23 @@ if(isset($_POST['submit']));
                                                 <br>
 
                                                 <div class="inputBox">
-                                                    <input type="text" name="nome" id="nome_i2" class=inputUser required>
-                                                    <label for="nome_i2" class="labelInput">Nome completo do estudante</label>
+                                                    <input type="text" name="nome" id="nome_i2" class=inputUser
+                                                        required>
+                                                    <label for="nome_i2" class="labelInput">Nome completo do
+                                                        estudante</label>
                                                 </div>
                                                 <br>
 
                                                 <div class="inputBox">
                                                     <label for="data_nascimento_i2">Data de Nascimento:</label>
-                                                    <input type="date" name="data_nascimento" id="data_nascimento_i2" required>
+                                                    <input type="date" name="data_nascimento" id="data_nascimento_i2"
+                                                        required>
                                                 </div>
                                                 <br>
 
                                                 <div class="inputBox">
-                                                    <input type="text" name="naturalidade" id="natural_i2" class=inputUser
-                                                        required>
+                                                    <input type="text" name="naturalidade" id="natural_i2"
+                                                        class=inputUser required>
                                                     <label for="natural_i2" class="labelInput">Naturalidade</label>
                                                 </div>
                                                 <br>
@@ -343,9 +355,10 @@ if(isset($_POST['submit']));
                                                             value="masculino" required>
                                                         <label class="inputBox__radio"
                                                             for="masculino_i2">Masculino</label><br>
-                                                        <input type="radio" name="genero" id="feminino_i2" value="feminino"
-                                                            required>
-                                                        <label class="inputBox__radio" for="feminino_i2">Feminino</label>
+                                                        <input type="radio" name="genero" id="feminino_i2"
+                                                            value="feminino" required>
+                                                        <label class="inputBox__radio"
+                                                            for="feminino_i2">Feminino</label>
                                                     </div>
                                                 </div>
                                                 <br>
@@ -353,8 +366,8 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Cor/Raça:</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="cor" id="cor__branca_i2" value="branca"
-                                                            required>
+                                                        <input type="radio" name="cor" id="cor__branca_i2"
+                                                            value="branca" required>
                                                         <label class="inputBox__radio"
                                                             for="cor__branca_i2">Branca</label><br>
                                                         <input type="radio" name="cor" id="cor__parda_i2" value="parda"
@@ -369,8 +382,8 @@ if(isset($_POST['submit']));
                                                             required>
                                                         <label class="inputBox__radio"
                                                             for="cor__preta_i2">Preta</label><br>
-                                                        <input type="radio" name="cor" id="cor__amarela_i2" value="amarela"
-                                                            required>
+                                                        <input type="radio" name="cor" id="cor__amarela_i2"
+                                                            value="amarela" required>
                                                         <label class="inputBox__radio"
                                                             for="cor__amarela_i2">Amarela</label><br>
                                                         <input type="radio" name="cor" id="cor__ndeclarada_i2"
@@ -410,11 +423,11 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Faz uso de medicamento contínuo?</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="medicamento" id="me__sim_i2" value="sim"
-                                                            required>
+                                                        <input type="radio" name="medicamento" id="me__sim_i2"
+                                                            value="sim" required>
                                                         <label class="inputBox__radio" for="me__sim_i2">Sim</label>
-                                                        <input type="radio" name="medicamento" id="me__nao_i2" value="nao"
-                                                            required>
+                                                        <input type="radio" name="medicamento" id="me__nao_i2"
+                                                            value="nao" required>
                                                         <label class="inputBox__radio" for="me__nao_i2">Não</label>
                                                     </div>
                                                 </div>
@@ -423,15 +436,16 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Responsável Legal:</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="responsavel" id="rl__pai_i2" value="pai"
-                                                            required>
+                                                        <input type="radio" name="responsavel" id="rl__pai_i2"
+                                                            value="pai" required>
                                                         <label class="inputBox__radio" for="rl__pai_i2">Pai</label><br>
                                                         <input type="radio" name="responsavel" id="rl__mae" value="mae"
                                                             required>
                                                         <label class="inputBox__radio" for="rl__mae_i2">Mãe</label><br>
                                                         <input type="radio" name="responsavel" id="rl__responsavel_i2"
                                                             value="responsavel_legal" required>
-                                                        <label class="inputBox__radio" for="rl__responsavel_i2">Responsável
+                                                        <label class="inputBox__radio"
+                                                            for="rl__responsavel_i2">Responsável
                                                             Legal</label>
                                                     </div>
                                                 </div>
@@ -449,12 +463,14 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <input type="tel" name="telefone" id="telefone_i2" class=inputUser
                                                         required>
-                                                    <label for="telefone_i2" class="labelInput">Número do telefone</label>
+                                                    <label for="telefone_i2" class="labelInput">Número do
+                                                        telefone</label>
                                                 </div>
                                                 <br><br>
 
                                                 <div class="inputBox">
-                                                    <input type="text" name="email" id="email_i2" class=inputUser required>
+                                                    <input type="text" name="email" id="email_i2" class=inputUser
+                                                        required>
                                                     <label for="email_i2" class="labelInput">Email</label>
                                                 </div>
                                                 <br><br>
@@ -466,8 +482,8 @@ if(isset($_POST['submit']));
                                                 <br><br>
 
                                                 <div class="inputBox">
-                                                    <input type="text" name="municipio" id="municipio_i2" class=inputUser
-                                                        required>
+                                                    <input type="text" name="municipio" id="municipio_i2"
+                                                        class=inputUser required>
                                                     <label for="municipio_i2" class="labelInput">Município</label>
                                                 </div>
                                                 <br><br>
@@ -482,55 +498,52 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Localização</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="localizacao" id="localizacao__urbana_i2"
-                                                            value="urbana" required>
+                                                        <input type="radio" name="localizacao"
+                                                            id="localizacao__urbana_i2" value="urbana" required>
                                                         <label class="inputBox__radio"
                                                             for="localizacao__urbana_i2">Urbana</label>
-                                                        <input type="radio" name="localizacao" id="localizacao__rural_i2"
-                                                            value="rural" required>
+                                                        <input type="radio" name="localizacao"
+                                                            id="localizacao__rural_i2" value="rural" required>
                                                         <label class="inputBox__radio"
                                                             for="localizacao__rural_i2">Rural</label>
                                                     </div>
                                                 </div>
                                                 <br><br>
-<!--parei aqui renomeando os IDs-->
+                                                
                                                 <div class="inputBox">
                                                     <p>Necessita de transporte escolar?</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="transporte" id="te__sim" value="sim"
-                                                            required>
-                                                        <label class="inputBox__radio" for="te__sim">Sim</label>
-                                                        <input type="radio" name="transporte" id="te__nao" value="nao"
-                                                            required>
-                                                        <label class="inputBox__radio" for="te__nao">Não</label>
+                                                        <input type="radio" name="transporte" id="te__sim_i2"
+                                                            value="sim" required>
+                                                        <label class="inputBox__radio" for="te__sim_i2">Sim</label>
+                                                        <input type="radio" name="transporte" id="te__nao_i2"
+                                                            value="nao" required>
+                                                        <label class="inputBox__radio" for="te__nao_i2">Não</label>
                                                     </div>
                                                 </div>
                                                 <br><br>
 
                                                 <div class="inputBox">
-                                                    <input type="text" name="edp" id="edp" class=inputUser required>
-                                                    <label for="edp" class="labelInput">Número do Código da EDP (Talão
-                                                        de Energia)</label>
+                                                    <input type="text" name="edp" id="edp_i2" class=inputUser required>
+                                                    <label for="edp_i2" class="labelInput">Número do Código da EDP
+                                                        (Talão de Energia)</label>
                                                 </div>
                                                 <br><br>
 
-                                                <input type="submit" class="submit" name="submit" id="submit"
+                                                <input type="submit" class="submit" name="submit" id="submit_i2"
                                                     value="Enviar">
-
                                             </fieldset>
-
                                         </form>
-
                                     </div>
-
                                 </div>
-
-                                <a class="btn" id="cad_res_inf" href="#abrirModal_i3"><span>CADASTRO DE RESERVA</span></a>
+<!--parei aqui renomeando os IDs-->
+                                <a class="btn" id="cad_res_inf" href="#abrirModal_i3"><span>CADASTRO DE
+                                        RESERVA</span></a>
                                 <!--CADASTRO DE RESERVA-->
                                 <div id="abrirModal_i3" class="modal">
                                     <div class="box">
                                         <form action="index.html" method="post" id="frm" class="frm">
-                                            <a href="#fechar" title="Fechar" id="fechar">x</a>
+                                            <a href="#fechar" title="Fechar" id="fechar" class="fechar">x</a>
                                             <fieldset>
                                                 <legend>CADASTRO DE RESERVA</legend>
                                                 <br><br>
@@ -768,14 +781,17 @@ if(isset($_POST['submit']));
                                                 </div>
                                                 <br><br>
 
-																<div class="inputBox">
-                                                   <p><b>Após a confirmação da vaga, o responsável pelo aluno deverá comparecer na Instituição com documentação, original e cópia para efetivação da matrícula</b></p>
-																	<br>
-																	<p>
-																		Ducumentos originais e uma cópia de cada documento para efetivação da matrícula:
-																		<br>
-																		Foto 3/4 do estudante;<br>
-																	</p>
+                                                <div class="inputBox">
+                                                    <p><b>Após a confirmação da vaga, o responsável pelo aluno deverá
+                                                            comparecer na Instituição com documentação, original e cópia
+                                                            para efetivação da matrícula</b></p>
+                                                    <br>
+                                                    <p>
+                                                        Ducumentos originais e uma cópia de cada documento para
+                                                        efetivação da matrícula:
+                                                        <br>
+                                                        Foto 3/4 do estudante;<br>
+                                                    </p>
                                                 </div>
                                                 <br><br>
 

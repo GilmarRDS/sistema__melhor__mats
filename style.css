@@ -440,7 +440,7 @@ legend{
  /* margin:0 10px 0 10px;*/
 }
 
-#submit{
+.submit{
     background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
     width: 60%;
     border-radius: 40px;
@@ -452,7 +452,7 @@ legend{
     margin-bottom: 10px;
 }
 
-#submit:hover{
+.submit:hover{
     background-image: linear-gradient(to right, #320eff, rgb(90,20,220));
     animation:bounce 1s;
 }
