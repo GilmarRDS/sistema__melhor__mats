@@ -1,7 +1,8 @@
 <?php
 
 $dbHost = "localhost";
-$dbUsername = "root";
+//$dbUsername = "root";
+$dbUsername = "id17737318_semed";
 $dbPassword = "";
 $dbName = "id17737318_m_2022";
 
