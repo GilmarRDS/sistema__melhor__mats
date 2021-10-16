@@ -1,11 +1,11 @@
 <?php
 
-$dbHost ='localhost';
-$dbUsername ='root';
-$dbPassword ='';
-$dbName = 'remanejamento_interno_escola2';
+$dbHost = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "id17737318_m_2022";
 
-$conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
+$conn = mysqli_connect ($dbHost, $dbUsername, $dbPassword, $dbName);
 
 //if ($conexao -> connect_errno)
 //{

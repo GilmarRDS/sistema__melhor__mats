@@ -1,10 +1,5 @@
 <?php
 
-if(isset($_POST['submit']));
-{
-    print_r($_POST['name']);
-}
-
 
 ?>
 
@@ -42,12 +37,11 @@ if(isset($_POST['submit']));
                             </label>
 
                             <div class="conteudo__dois">
-                                <a class="btn" id="rem_inter_inf" href="#abrirModal_i1"><span>REMANEJAMENTO
-                                        INTERNO</span></a>
+                                <a class="btn" id="rem_inter_inf" href="#abrirModal_i1"><span>REMANEJAMENTO INTERNO</span></a>
                                 <!--REMANEJAMENTO INTERNO-->
                                 <div id="abrirModal_i1" class="modal">
                                     <div class="box">
-                                        <form action="index.php" method="post" id="frm" class="frm">
+                                        <form action="rem_int_escola1.php" method="POST" id="frm" class="frm">
                                             <a href="#fechar" title="Fechar" id="fechar" class="fechar">x</a>
                                             <fieldset>
                                                 <legend>REMANEJAMENTO INTERNO</legend>
@@ -135,10 +129,10 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <p>Frequenta sala de recurso (AEE)?</p>
                                                     <div class="inputBox__radio">
-                                                        <input type="radio" name="especial" id="aee__sim" value="sim"
+                                                        <input type="radio" name="especial_aee" id="aee__sim" value="sim"
                                                             required>
                                                         <label class="inputBox__radio" for="aee__sim">Sim</label>
-                                                        <input type="radio" name="especial" id="aee__nao" value="nao"
+                                                        <input type="radio" name="especial_aee" id="aee__nao" value="nao"
                                                             required>
                                                         <label class="inputBox__radio" for="aee__nao">Não</label>
                                                     </div>
@@ -176,7 +170,7 @@ if(isset($_POST['submit']));
                                                 <br><br>
 
                                                 <div class="inputBox">
-                                                    <input type="text" name="responsavel" id="responsavel__legal"
+                                                    <input type="text" name="nome_responsavel" id="responsavel__legal"
                                                         class=inputUser required>
                                                     <label for="responsavel__legal" class="labelInput">Nome do
                                                         responsável
@@ -247,9 +241,7 @@ if(isset($_POST['submit']));
 
                                                 <div class="inputBox">
                                                     <input type="text" name="edp" id="edp" class=inputUser required>
-                                                    <label for="edp" class="labelInput">Número do Código da EDP (Talão
-                                                        de
-                                                        Energia)</label>
+                                                    <label for="edp" class="labelInput">Número do Código da EDP (Talão de Energia)</label>
                                                 </div>
                                                 <br><br>
 
@@ -455,8 +447,7 @@ if(isset($_POST['submit']));
                                                 <div class="inputBox">
                                                     <input type="text" name="responsavel" id="responsavel__legal_i2"
                                                         class=inputUser required>
-                                                    <label for="responsavel__legal_i2" class="labelInput">Nome do
-                                                        responsável legal</label>
+                                                    <label for="responsavel__legal_i2" class="labelInput">Nome do responsável legal</label>
                                                 </div>
                                                 <br><br>
 
