@@ -6,7 +6,7 @@ $dbUsername = "id17737318_semed";
 $dbPassword = "@Grds39912151#";
 $dbName = "id17737318_m_2022";
 
-$conn = mysqli_connect ($dbHost, $dbUsername, $dbPassword, $dbName);
+$conn = new mysqli ($dbHost, $dbUsername, $dbPassword, $dbName);
 
 //if ($conexao -> connect_errno)
 //{
